@@ -1,3 +1,5 @@
+
+
 //inicia las variables
 let tarjetasDestapadas = 0;
 let tarjeta1 = null;
@@ -10,6 +12,7 @@ let temporizador = false;
 let timer = 35;
 let timerInicial = timer;
 let cuentaRegresivaId = null; 
+
 
 //agregando audio
 
@@ -27,6 +30,8 @@ let mostrarTiempo = document.getElementById('tiempo') ;
 //definiendo los numeros para que sean aleatorios
 let numeros = [0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
 numeros = numeros.sort(()=> {return Math.random()-0.5});
+
+
 
 
 //funciones
