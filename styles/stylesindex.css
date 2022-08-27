@@ -1,0 +1,178 @@
+body {
+  background: rgb(109, 81, 70);
+  background: radial-gradient(
+    circle,
+    rgb(84, 194, 155) 0%,
+    rgb(68, 160, 72) 100%
+  );
+  font-family: sans-serif;
+  color: antiquewhite;
+}
+
+main {
+  width: 700px;
+  margin: 100px auto 50px;
+  display: flex;
+  align-items: center;
+}
+
+.section1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 10px 10px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: aliceblue;
+}
+
+table tr td {
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  width: 230px;
+  height: 300px;
+  font-size: 40px;
+  margin: 3px;
+  color: rgb(56, 54, 54);
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+#facil:hover {
+  cursor: pointer;
+  background-color: rgba(13, 89, 64, 0.973);
+  color: antiquewhite;
+}
+
+#media:hover {
+  cursor: pointer;
+  background-color: rgba(194, 90, 20, 0.981);
+  color: antiquewhite;
+}
+
+#dificil:hover {
+  cursor: pointer;
+  background-color: rgba(140, 13, 13, 0.981);
+  color: antiquewhite;
+}
+
+img {
+  width: 80%;
+}
+
+#restart {
+  width: 80%;
+  height: 45px;
+  border: 1px solid white;
+  color: antiquewhite;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px 20px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+#restart:hover {
+  cursor: pointer;
+  background-color: rgba(68, 150, 123, 0.348);
+}
+
+footer {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 700px;
+    margin: 100px auto 50px;
+    display: flex;
+  }
+
+
+  h1,h2 {
+    text-align: center;
+    color: aliceblue;
+    }
+
+    table tr td {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    }
+
+    button {
+    width: 300px;
+    height: 300px;
+    font-size: 40px;
+    margin: 3px;
+    color: rgb(56, 54, 54);
+    font-weight: 400;
+    border-radius: 8px;
+    }
+
+    #facil:hover {
+    cursor: pointer;
+    background-color: rgba(13, 89, 64, 0.973);
+    color: antiquewhite;
+    }
+
+    #media:hover {
+    cursor: pointer;
+    background-color: rgba(194, 90, 20, 0.981);
+    color: antiquewhite;
+    }
+
+    #dificil:hover {
+    cursor: pointer;
+    background-color: rgba(140, 13, 13, 0.981);
+    color: antiquewhite;
+    }
+
+    img {
+    width: 70%;
+    }
+
+    #restart {
+    width: 80%;
+    height: 45px;
+    border: 1px solid white;
+    color: antiquewhite;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 15px;
+    }
+
+    #restart:hover {
+    cursor: pointer;
+    background-color: rgba(68, 150, 123, 0.348);
+    }
+
+    footer {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    }
+
+    a {
+    text-decoration: none;
+    color: antiquewhite;
+    }
+
+}

@@ -1,0 +1,107 @@
+body{
+    background: rgb(109, 81, 70);
+    background: radial-gradient(circle, rgb(84, 194, 155) 0%, rgb(68, 160, 72) 100%) ;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+main{
+    width: 700px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+.section1{
+    background-color: rgba(255,255,255,0.2);
+    padding: 0 10px 10px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    margin: 3px;
+    color: rgb(56, 54, 54);
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(127, 255, 212, 0.147); 
+}
+
+.section2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 517px;
+    padding: 0 20px ;
+    font-size: 12px;
+}
+
+.estadisticas{
+    border: 1px solid white;
+    height: 100px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 80%;
+}
+
+#restart{
+    width: 80%;
+    height: 45px;
+    border: 1px solid white;
+    color: antiquewhite;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);  
+    padding: 10px 20px ;
+    margin-left: 15px;
+    font-size: 15px;
+
+}
+
+#restart:hover{
+    cursor: pointer;
+    background-color: rgba(68, 150, 123, 0.348); 
+}
+
+#salir{
+    width: 80%;
+    height: 45px;
+    border: 1px solid white;
+    color: antiquewhite;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);  
+    padding: 10px 20px ;
+    margin-left: 15px;
+    font-size: 15px;
+
+}
+
+#salir:hover{
+    cursor: pointer;
+    background-color: rgba(68, 150, 123, 0.348); 
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    
+}
