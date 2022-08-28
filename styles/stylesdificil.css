@@ -112,3 +112,117 @@ a{
 a:hover{
     color: tomato;
 }
+
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 0px;
+    }
+    main{
+        
+        width: 290px;
+        height: 300px;
+        margin: 0px 5px 10px;
+        display: grid;
+        
+    }
+
+    
+    h1{
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 40px;
+        margin: 3px;
+        color: rgb(56, 54, 54);
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+    .section2{
+        display: none;
+        background-color: rgba(255,255,255,0.2);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        width: 250px;
+        height: 517px;
+        padding: 0 20px ;
+        font-size: 12px;
+    }
+
+
+    #section2{
+        display: block;
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 0px;
+        width: 300px;
+        height: 350px;
+        padding: 10px 10px ;
+        font-size: 10px;
+    }
+
+
+    .estadisticas{
+        width: 290px;
+        height: 15%;
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 8px 20px;
+        box-sizing: border-box;
+    }
+    
+    img{
+        width: 80%;
+    }
+    
+    #restart{
+        width: 80%;
+        height: 40px;
+        border: 1px solid white;
+        color: antiquewhite;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0);  
+        padding: 5px 20px ;
+        margin-left: 15px;
+        font-size: 15px;
+    
+    }
+    
+    #restart:hover{
+        cursor: pointer;
+        background-color: rgba(68, 150, 123, 0.348); 
+    }
+    
+    #salir{
+        width: 80%;
+        height: 44px;
+        border: 1px solid white;
+        color: antiquewhite;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0);  
+        padding: 5px 20px ;
+        margin-left: 15px;
+        font-size: 15px;
+    
+    }
+    
+    #salir:hover{
+        cursor: pointer;
+        background-color: rgba(68, 150, 123, 0.348); 
+    }
+     
+    
+    
+    footer{
+        text-align: center;
+        display: none;
+    }
+}

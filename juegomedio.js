@@ -51,7 +51,7 @@ function contarTiempo(){
 function bloquearTarjetas(){
     for(let i = 0; i<=20; i++){
         let tarjetaBloqueada = document.getElementById(i);
-        tarjetaBloqueada.innerHTML = `<img src="../source/imgs/${numeros[i]}.png">`;
+        tarjetaBloqueada.innerHTML = `<img src="./source/imgs/${numeros[i]}.png">`;
         tarjetaBloqueada.disabled = true;
         finDelTiempoAudio.play();
 
@@ -98,7 +98,7 @@ function destapar(id){
         //muestra los numeros
         tarjeta1 = document.getElementById(id);
         primerResultado = numeros[id];
-        tarjeta1.innerHTML = `<img src="../source/imgs/${primerResultado}.png">`;
+        tarjeta1.innerHTML = `<img src="./source/imgs/${primerResultado}.png">`;
         touchAudio.play();
 
         //deshabilitar primer boton tocado
@@ -108,7 +108,7 @@ function destapar(id){
 
         tarjeta2 = document.getElementById(id);
         segundoResultado = numeros[id];
-        tarjeta2.innerHTML = `<img src="../source/imgs/${segundoResultado}.png">`;
+        tarjeta2.innerHTML = `<img src="./source/imgs/${segundoResultado}.png">`;
         touchAudio.play();
         
         //deshabilita el segundo boton
